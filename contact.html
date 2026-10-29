@@ -23,7 +23,39 @@
                 <li><a href="https://t.me/enegartech">Telegram</a></li>
                 <li><a href="https://www.instagram.com/enegartech/">Instagram</a></li>
             </ul>
-    
+            <section>
+                <h2>Send me a message</h2>
+                <p>This form is a demo and does not send messages yet. Please use Telegram or Instagram.</p>
+                <form method="post">
+                    <p>
+                        <label for="name">Enter your name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </p>
+                    <p>
+                        <label for="email">Enter your email:</label>
+                        <input type="email" id="email" name="email" placeholder="name@example.com" required>
+                    </p>
+                    <p>
+                        <label for="subject">Select a subject:</label>
+                        <select name="subject" id="subject">
+                            <option value="question">Question</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="message">Enter your message:</label>
+                        <textarea id="message" name="message" rows="3" cols="30"  required></textarea>
+                    </p>
+                    <p>
+                        <label for="agree">I agree to be contacted</label>
+                        <input type="checkbox" id="agree" name="agree" required>
+                    </p>
+                    <p>
+                        <button type="submit">Send</button>
+                    </p>
+                </form>
+            </section>
             <p>If you have any <strong>questions</strong> or need <strong>assistance</strong>, feel free to reach out to me using the <em>contact information</em> above.</p>
         </main>
         <footer><p>&copy; 2026 enegartech</p></footer>

@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Club</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Coding Club</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>About the Club</h2>
+            <p>
+                Our coding club is a place where students
+                can learn <strong>programming</strong>,
+                share ideas, and build exciting projects.
+            </p>
+            <img src="images/logo.jpg" alt="our logo" width="250">
+        </section>
+        <section>
+            <h2>Schedule</h2>
+            <table>
+                <caption>Weekly Coding Club Schedule</caption>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Topic</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>HTML Basics</td>
+                        <td>10:00 AM</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>CSS Styling</td>
+                        <td>11:00 AM</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>JavaScript</td>
+                        <td>2:00 PM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Join the Club</h2>
+            <form method="post">
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="full-name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email-address" required>
+                </p>
+                <fieldset>
+                    <legend>Choose Your Level</legend>
+                    <input type="radio" id="beginner" name="level" value="beginner" required>
+                    <label for="beginner">Beginner</label>
+
+                    <input type="radio" id="advanced" name="level" value="advanced">
+                    <label for="advanced">Advanced</label>
+                </fieldset>
+
+                <p>
+                    <input type="checkbox" id="agreement" name="contact-consent" value="yes" required>
+                    <label for="agreement">I agree to be contacted</label>
+                </p>
+                <button type="submit">Join Now</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 enegartech</p>
+    </footer>
+</body>
+</html>
